@@ -12,6 +12,17 @@ function draw() {
     stroke("orange");
     strokeWeight(10);
   circle(520,60,100)
+  
+  
+  stroke(0);
+  strokeWeight(1);
+  fill("green");
+  rect(0,400,600,200);
+  
+  textSize(75);
+  text("💀",100,450);
+  text("🐞",220,430);
+
   if(mouseIsPressed===true){
     fill("yellow");
     stroke("orange");
@@ -25,16 +36,6 @@ function draw() {
 
   }
   circle(mouseX,mouseY,100);
-  
-  stroke(0);
-  strokeWeight(1);
-  fill("green");
-  rect(0,400,600,200);
-  
-  textSize(75);
-  text("💀",100,450);
-  text("🐞",220,430);
-
 
 }
 
