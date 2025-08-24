@@ -14,7 +14,7 @@ function draw() {
   circle(520,60,100)
   
   
-  stroke(0);
+  stroke("blue");
   strokeWeight(1);
   fill("green");
   rect(0,400,600,200);
