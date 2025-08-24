@@ -19,9 +19,14 @@ function draw() {
   fill("green");
   rect(0,520,1920,200);
   
+  stroke("red");
+  strokeWeight(1);
+  fill("yellow");
   textSize(75);
   text("💀",100,650);
   text("🐞",220,550);
+  text("Hello World!",800,100);
+  text("This is my first program!",600,200);
 
   if(mouseIsPressed===true){
     fill("yellow");
