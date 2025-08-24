@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(1980, 720);
 }
 
 function draw() {
@@ -17,11 +17,11 @@ function draw() {
   stroke("blue");
   strokeWeight(1);
   fill("green");
-  rect(0,400,600,200);
+  rect(0,520,1920,200);
   
   textSize(75);
-  text("💀",100,450);
-  text("🐞",220,430);
+  text("💀",100,650);
+  text("🐞",220,550);
 
   if(mouseIsPressed===true){
     fill("yellow");
